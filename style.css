@@ -1,0 +1,16 @@
+body {
+    background-color: blue;
+}
+
+p {
+    text-align: center;
+}
+
+.col-2 {
+    text-align: right;
+    background-color: yellow;
+}
+
+.nav-link {
+    color: black;
+}
