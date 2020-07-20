@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "name": "Kata",
+      "email": "kata@gmail.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Little Jimmy",
+      "email": "littlejimmy@gmail.com"
+    },
+    {
+      "name": "Micky Big",
+      "age": 21,
+      "id": 3
+    },
+    {
+      "name": "Katcvshgavcada",
+      "email": "katsflkasdfla@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Katcvshgavcada",
+      "email": "katsflkasdfla@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Katcvshgavcada",
+      "email": "katsflkasdfla@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Katcvshgavcada",
+      "email": "katsflkasdfla@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Katcvshgavcada",
+      "email": "katsflkasdfla@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Katcvshgavcada",
+      "email": "katsflkasdfla@gmail.com",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "userId": 1
+    }
+  ]
+}

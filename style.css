@@ -6,11 +6,25 @@ p {
     text-align: center;
 }
 
-.col-2 {
+.col-1 {
     text-align: right;
-    background-color: yellow;
+    background-color: rgb(255, 0, 191);
 }
 
-.nav-link {
-    color: black;
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.navbar-custom{
+    background-color: teal;
+}
+.alert-danger{
+    text-align: center;
 }
