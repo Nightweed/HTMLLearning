@@ -1,12 +1,13 @@
-let fetchInit = {
+/*let fetchInit = {
     method: "GET",
     headers: new Headers(),
     mode: "cors",
     cache: "default"
 };
+*/
 // const fetchData = fetch("http://localhost:3000/users", fetchInit);
 // fetchData.then(data => data.json()).then(data => console.log(data));
-
+/*
 const postPromise = fetch("http://localhost:3000/users", fetchInit);
 postPromise
     .then(data => data.json())
@@ -69,8 +70,10 @@ fetch("http://localhost:3000/users/", fetchOptions1).then(
     err => console.error(err)
 ).then(
     json => console.log(json)
-);       //---------------------------------------------------------------------------------
+);
 */
+//---------------------------------------------------------------------------------
+
 /* // Ez a torles buzikam !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 let fetchDel = {
     method: "DELETE",
@@ -85,3 +88,43 @@ fetch("http://localhost:3000/users/9", fetchDel).then(
 //---------------------------------------------------------------------------------------
 */
 
+let leftBannerTextParent = document.querySelector('.testparam');
+console.log(leftBannerTextParent);
+console.log(leftBannerTextParent.childNodes);
+for (let i = 0; i < leftBannerTextParent.childNodes.length; i++) {
+    if (leftBannerTextParent.childNodes[i].nodeName == '#text') {
+        console.log(leftBannerTextParent.childNodes[i]);
+        leftBannerTextParent.childNodes[i].textContent = 'hajra';
+
+    }
+};
+
+
+
+
+let users = {
+    name: 'Pidti',
+    ageL: 34,
+    email: 'bgsvbsdm@fss.fsd'
+}
+
+
+for (let k of Object.keys(users)) {
+    console.log('Keys : ' + k + ' Value :' + users[k]);
+}
+
+
+
+let collector = function () {
+    const arr = [];
+    let inputs = document.querySelectorAll('.input');
+    for (let i = 0; i < inputs.length; i++) {
+        arr.push(inputs[i].value);
+    }
+    btn.innerHTML = arr;
+
+}
+
+let btn = document.querySelector('.btn');
+
+btn.addEventListener('click', collector);

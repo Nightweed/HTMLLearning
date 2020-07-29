@@ -28,3 +28,11 @@ p {
 .alert-danger{
     text-align: center;
 }
+.testparam {
+    color: white;
+}
+
+.btn {
+    height: 150px;
+    width: 240px;
+}
